@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+            background-image: url( https://png.pngtree.com/thumb_back/fw800/background/20201009/pngtree-abstract-paper-cut-background-in-blue-and-purple-image_405382.jpg);
+            background-size: cover;
+
+
+        }
+        .form{
+            background-color: white;
+            border-radius: 20px;
+            width:150px;
+            height: 150px;
+            margin: 160px 450px ;
+            padding: 100px 200px 180px 100px;
+            border: 1px solid gray;
+        }
+       label{
+        margin: 0px;  
+        padding: 0px;
+            }
+        .submit{
+            background-color: blueviolet;
+            color:white;
+            border-radius: 10px;
+            width: 100px;
+            height:50px;
+            padding: 10px;
+        }
+        input{
+            height: 20px;
+            width: 280px;
+            border-radius: 3px;
+            border: 1px solid blueviolet;
+            padding: 1px;
+        }
+        .sign_up{
+            background-color: white;
+            border-radius: 20px;
+            width:150px;
+            height: 350px;
+            margin: 160px 450px ;
+            padding: 10px 200px 180px 100px;
+            border: 1px solid gray;
+        }
+        h1{
+            text-align: center
+        }
+    </style>
+</head>
+<body>
+    <form class="form">
+        <h1>Login</h1>
+        <hr>
+        <div>
+            <label for="Username">Username</label>
+            <br>
+            <input type="text" required><br>
+            <br>
+            <label for="Passwoard">Passwoard</label>
+            <br>
+            <input type="password"  required>
+            <br>
+            <hr>
+            <input  class="submit"  type="submit" value="submit">
+        </div>
+       
+    </form>
+    <form class="sign_up">
+        <h1>Sing up</h1>
+        <hr>
+        <div>
+            <label for="Username">name</label>
+            <br>
+            <input type="text" required>
+            <br>
+            <label for="Username">Username</label>
+            <br>
+            <input type="text" required>
+            <br>
+            <label for="text">Email</label>
+            <br>
+            <input type="text" required>
+            <br>
+            <label for="text">number</label>
+            <br>
+            <input type="text"required>
+            <br>
+            <label for="Passwoard">Passwoard</label>
+            <br>
+            <input type="password"  required>
+            <br>
+            <label for="text">About yourself</label>
+            <br>
+            <input type="text" name="text-align" id="">
+            <br>
+            <label for="file">date</label>
+            <br>
+            <input type="date" name="date" id="">
+            <br>
+            <label for="file">cv</label>
+            <br>
+            <input type="file" name="file" id="">
+            <br>
+            <hr>
+            <input  class="submit"  type="submit" value="submit">
+        </div>
+       
+    </form>
+</body>
+</html>
